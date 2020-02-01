@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Realtime communication with WebRTC</title>
+
+  <link rel="stylesheet" href="css/main.css" />
+
+</head>
+
+<body>
+
+  <h1>Realtime communication with WebRTC</h1>
+
+  <div>
+    
+
+    <!-- <button id="acceptButton">Accept</button> -->
+    
+  </div>
+
+  <div class="screen">
+    <h3>Alice's Screen</h3>
+    <button id="startButtonAlice">Start my video</button>
+    <button id="callButtonAlice">Call Bob</button>
+    <button id="hangupButtonAlice">Hang Up</button>
+    <video id="aliceVideo" autoplay playsinline></video>
+  </div>
+  <div class="screen">
+    <h3>Bob's Screen</h3>
+    <button id="startButtonBob">Start my Video</button>
+    <button id="callButtonBob">Call Alice</button>
+    <button id="hangupButtonBob">Hang Up</button>
+    <video id="bobVideo" autoplay playsinline></video>
+  </div>
+
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+#localVideo {
+    filter: hue-rotate(180deg) saturate(200%);
+}
+
+video {
+    height: 480px;
+    width: 640px;
+    transform: scaleX(-1);
+}
+
+.screen {
+    border: 1px solid black;
+    margin: 5px;
+}
