@@ -1,0 +1,15 @@
+# Exploring WebRTC
+
+## Description
+This is a basic demo set up for the purpose of exploring WebRTC. It demonstrates how two peers - Alice and Bob, can establish a WebRTC connection
+between them and stream a video from the first peer to the second.
+
+Currently, both the peers - Alice and Bob, are created in the same page. This has zero practical utility and is only for learning purposes.
+
+This will be expanded soon to support peers on different devices. This would require server-side support in the form of a signalling server,
+apart from STUN and possibly TURN servers.
+
+## References
+- https://codelabs.developers.google.com/codelabs/webrtc-web/#0
+- https://www.pkc.io/blog/untangling-the-webrtc-flow/
+- [Mozilla Developer Network Docs for WebRTC](https://developer.mozilla.org/en-US/docs/Web/API/RTCPeerConnection)
