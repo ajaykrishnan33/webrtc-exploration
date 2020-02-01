@@ -10,6 +10,7 @@ This will be expanded soon to support peers on different devices. This would req
 apart from STUN and possibly TURN servers.
 
 ## References
+- https://www.html5rocks.com/en/tutorials/webrtc/basics/
 - https://codelabs.developers.google.com/codelabs/webrtc-web/#0
 - https://www.pkc.io/blog/untangling-the-webrtc-flow/
 - [Mozilla Developer Network Docs for WebRTC](https://developer.mozilla.org/en-US/docs/Web/API/RTCPeerConnection)
