@@ -1,8 +1,7 @@
 # Exploring WebRTC
 
 ## Description
-This is a basic demo set up for the purpose of exploring WebRTC. It demonstrates how two peers - Alice and Bob, can establish a WebRTC connection
-between them and stream a video from the first peer to the second.
+This is a basic demo set up for the purpose of exploring WebRTC. It demonstrates how two peers - Alice and Bob, can establish a WebRTC connection between them and bidirectionally stream video between them. Also, text chat functionality has been implemented too.
 
 Currently, both the peers - Alice and Bob, are created in the same page. This has zero practical utility and is only for learning purposes.
 
