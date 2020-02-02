@@ -1,14 +1,26 @@
-#localVideo {
-    filter: hue-rotate(180deg) saturate(200%);
-}
-
 video {
-    height: 480px;
-    width: 640px;
     transform: scaleX(-1);
 }
 
 .screen {
     border: 1px solid black;
     margin: 5px;
+}
+
+.sender {
+    border: 1px solid black;
+}
+
+.messageElem {
+    border: 1px solid black;
+}
+
+.localVideo {
+    height: 120px;
+    width: 160px;
+}
+
+.remoteVideo {
+    height: 480px;
+    width: 640px;
 }

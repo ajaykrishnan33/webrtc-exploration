@@ -25,14 +25,28 @@
     <button id="startButtonAlice">Start my video</button>
     <button id="callButtonAlice">Call Bob</button>
     <button id="hangupButtonAlice">Hang Up</button>
-    <video id="aliceVideo" autoplay playsinline></video>
+    <div id="chatAlice">
+        <h4>Chat</h4>
+        <div id="messagesAlice"></div>
+        <textarea id="textareaAlice" disabled> </textarea>
+        <button id="sendMsgButtonAlice" disabled>Send Msg</button>
+    </div>
+    <video id="aliceVideoRemote" class="remoteVideo" autoplay playsinline></video>
+    <video id="aliceVideoLocal" class="localVideo" autoplay playsinline></video>
   </div>
   <div class="screen">
     <h3>Bob's Screen</h3>
     <button id="startButtonBob">Start my Video</button>
     <button id="callButtonBob">Call Alice</button>
-    <button id="hangupButtonBob">Hang Up</button>
-    <video id="bobVideo" autoplay playsinline></video>
+    <button id="hangupButtonBob">Hang Up</button> 
+    <div id="chatBob">
+        <h4>Chat</h4>
+        <div id="messagesBob"></div>
+        <textarea id="textareaBob" disabled> </textarea>
+        <button id="sendMsgButtonBob" disabled>Send Msg</button>
+    </div>
+    <video id="bobVideoRemote" class="remoteVideo" autoplay playsinline></video>
+    <video id="bobVideoLocal" class="localVideo" autoplay playsinline></video>
   </div>
 
   <script src="js/main.js"></script>
